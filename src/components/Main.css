@@ -1,0 +1,64 @@
+
+body{
+  margin: 0;
+  padding: 0;
+}
+.Main p {
+    font-size: 1.25rem;
+    text-align: justify;
+  }
+
+.Main h2 {
+    color: #d62727;
+  }
+
+  .Main ul li {
+    margin-bottom: 15px; 
+    text-align: justify;
+  }
+
+  .Main ul {
+    list-style-type: square;
+    padding-left: 30px; 
+    
+  }
+  
+.Main img{
+    height: 280px;
+    width: 500px;
+    display: block; 
+    margin-bottom: 25px;
+    border-radius: 10px;
+    
+    
+    
+      
+}
+
+
+.Main img {
+  transition: transform 0.5s ease; 
+}
+
+
+.Main img:hover {
+  transform: scale(1.1);
+}
+
+
+.Main img:hover {
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+  @media (max-width: 991px) {
+    .Main h1 {
+      font-size: 2rem;
+    }
+  
+    .Main p {
+      font-size: 1rem;
+    }
+  }
+  
+  
